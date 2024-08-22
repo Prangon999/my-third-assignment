@@ -10,6 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!-- tailwind css  -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
     <!-- font awesome  -->
     <script src="https://kit.fontawesome.com/b6d9aefcee.js" crossorigin="anonymous"></script>
     <!-- daisy ui setup  -->
@@ -18,6 +29,49 @@
     
 </head>
 <body>
-    
+    <!-- header section  -->
+     <header class="max-w-screen-xl mx-auto">
+  <!-- navbar section  -->
+   <nav class="mb-10">
+  <div class="navbar bg-base-100">
+    <div class=" w-1/2 lg:w-2/6 justify-start">
+      <i class="fa-solid fa-arrow-right bg-lime-300 rounded-full p-1 -rotate-45"></i>
+      <a class=" text-3xl pl-2  font-extrabold">Rinterio</a>
+    </div>
+    <!-- navbar center  -->
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a class="font-extrabold">Home</a></li>
+        <li><a>Services</a> </li>
+        <li><a>Portfolio</a></li> 
+        <li><a>Blogs</a></li>
+        <li><a>Contact Us</a></li>
+      </ul>
+    </div>
+    <!-- navbar end  -->
+   
+    <div class="navbar-end ">
+      
+      <!-- trial  -->
+      <div class="bg-slate-200 p-2 mx-3 rounded-full "><i class="fa-solid fa-magnifying-glass "></i></div>
+      <div class="bg-slate-200 p-2 mx-3 rounded-full "><i class="fa-solid fa-cart-shopping bg-slate-1 00"></i></div>
+    <div class="bg-lime-300 p-2 rounded-3xl "> <a class="font-extrabold text-xl ">Book Consult</a> 
+      <i class="fa-solid fa-arrow-right bg-slate-800 text-white rounded-full  -rotate-45 p-[2px]"></i>
+    </div> 
+   </div>
+  </nav>
+  <!-- banner part  -->
+   <section>
+    <img class="w-1/3" src="assets/banner.png" alt="">
+   </section>
+     </header>
+     <!-- main section  -->
+      <main>
+
+      </main>
+      <!-- footer section  -->
+       <footer>
+        
+       </footer>
 </body>
 </html>
